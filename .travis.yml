@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Kn53iDT6+Ip1OEnSL2OPnkstR/RVsJ7296/r12jyQnYi4Qmw1tMLRMnLifa1BYRBPFAdDsJEO5io+yJ1eTt7ur4haVZiL0/yCwgnP+mcAOrh3+++/NDla0k4LkKdRUd5X/adjPvM2WVEfVYZUVw3JEu6wOAp7DdtGcQdk4lg/5JUephKJCT/UfxZS0D0AvnCg29uji/MPT3207Toi6jSq1lj/B0JPP4oKoyW1A7T+2LD6hWKhffsl69ccKG3N6U7x3hy4wj+Nea+hkXFkRo7cCNwlEvCw6dda+BZPxRXHew4vus/duuexAIv6bL6CxL+GGju+9yGcyPD5Bfv6nQgu4xyMUdBcglre8nshNQIFZSSQlV0ESA/MBNpaC8mbZn2alvS6WBTk++CppkKe91hfhqfgwuqTT3lmxr1w8Z+jK51DuTKhQkDKmFSfOtd7uX6KDJjuGbW2kURrbGIQZvG10T+4cBpNjZKPThFuJtuMdJavm4mDkwFyEmUDDTeFLAiL0ft1oCYJ/tGgC5wLWZ8jt1DYqPfbLBouOtR3jqmptgbOTsUkDQyvclfPvizY7kgmcGqde3GcBjVFhQ7j/bifheGB8GOfM5QWOIqzuopH6HqPd0Lf+G2id/71ccIijTRMXoui8+b9Y8lp4EXvasmjzwaOTCZsr7+wxRSBwsAQVY=
+  app: immense-chamber-77640
+  on:
+    repo: raysmithdev/full-stack-application-tutorial-serverside
